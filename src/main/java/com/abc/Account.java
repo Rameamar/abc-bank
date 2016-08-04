@@ -1,9 +1,10 @@
 package com.abc;
 
+import java.util.Collections;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Account {
+public abstract class Account {
 
     public static final int CHECKING = 0, SAVINGS = 1, MAXI_SAVINGS = 2;
 
