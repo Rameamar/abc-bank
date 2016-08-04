@@ -3,6 +3,9 @@ package com.abc;
 import org.junit.Ignore;
 import org.junit.Test;
 
+import com.abc.Account;
+import com.abc.Customer;
+
 import static org.junit.Assert.assertEquals;
 
 public class CustomerTest {
