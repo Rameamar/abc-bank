@@ -2,6 +2,10 @@ package com.abc;
 
 import org.junit.Test;
 
+import com.abc.Account;
+import com.abc.Bank;
+import com.abc.Customer;
+
 import static org.junit.Assert.assertEquals;
 
 public class BankTest {
