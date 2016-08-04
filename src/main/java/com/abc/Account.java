@@ -45,12 +45,12 @@ public void withdraw(double amount) {
 //                if (amount <= 4000)
 //                    return 20;
             case MAXI_SAVINGS:
-                if (amount <= 2000)
+                if (amount <= 1000)
                     return amount * 0.02;
-                if (amount <= 3000)
+                if (amount <= 2000)
                     return 20 + (amount-2000) * 0.05;
-                if (amount>3000)
-                return 70 + (amount-3000) * 0.1;
+                if (amount>2000)
+                return 70 + (amount-2000) * 0.1;
             default:
                 return amount * 0.001;
         }
